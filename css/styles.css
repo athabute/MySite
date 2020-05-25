@@ -1,0 +1,231 @@
+/* INDEX*/
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+
+  h1 {
+    color: #66BFBF;
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 50px;
+    padding: 30px;
+  }
+
+  h2 {
+    color: #66BFBF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    padding: 30px auto 10px;
+  }
+
+  h3 {
+    color: #66BFBF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    line-height: 2;
+  }
+
+  hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 30px auto;
+  }
+/* INDEX - Title Section*/
+#title {
+  background-color: #EAF6F6;
+}
+/*Navbar*/
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light', sans-serif;
+  font-size: 1.2rem;
+}
+/*Top Container*/
+.top-container {
+  height: 400px;
+  padding-top: 50px;
+}
+
+.title-box {
+  text-align: center;
+}
+
+.images {
+  width: 20%;
+  position: relative;
+  margin: 30px auto 20px;
+}
+
+/* INDEX - Middle Container Section*/
+.profile {
+  padding-top: 10px;
+}
+.bald {
+  width: 10%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill1 {
+  width: 15%;
+  margin-right: 20px;
+  float: left;
+}
+
+.skill2 {
+  width: 15%;
+  margin-left: 20px;
+  float: right;
+}
+
+.skill3 {
+  width: 15%;
+  margin-right: 20px;
+  float: left;
+}
+
+.skill4 {
+  width: 15%;
+  margin-left: 20px;
+  float: right;
+}
+
+/* INDEX - Contact Section*/
+.contact-msg {
+  width: 30%;
+  margin: 20px auto 40px;
+}
+
+
+
+/* INDEX - Bottom Container Section*/
+.bottom-container {
+  background-color: #EAF6F6;
+  padding: 30px 0 20px;
+  margin-top: 30px;
+}
+
+a {
+  color: #66BFBF;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #408c99;
+}
+
+@media (max-width: 1028px) {
+  .images {
+    width: 30%
+  }
+}
+
+/* EXPERIENCES - Infographic section */
+.infographic {
+  padding-top: 30px;
+}
+
+
+/* EXPERIENCES - download section */
+.download {
+  margin: 30px 0 30px;
+}
+
+/* Certifications section */
+#Certifications {
+  padding: 10px;
+  text-align: center;
+}
+
+.card {
+  margin: auto;
+}
+
+/* Certifications - Cards section */
+.card-img-top {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-top: 20px;
+}
+
+
+/* HOBBIES - Carousel */
+#hobbies-carousel {
+  background-color: #2a7886;
+}
+
+.carousel-inner {
+  padding-top: 30px;
+}
+
+.hobbies-image {
+  width: 50%;
+  padding: 30px;
+}
+
+.hobbies-text {
+  padding-bottom: 30px;
+}
+
+/* HOBBIES - Bottom Container */
+.bottom-container-hobbies {
+  background-color: #EAF6F6;
+  padding: 30px 0 20px;
+}
+
+
+
+/* Former button */
+.myButton {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background-color: #599bb3;
+  border-radius: 8px;
+  border: 1px solid #29668f;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 11px 26px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  margin-bottom: 20px;
+}
+
+.myButton:hover {
+  background-color: #408c99;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
